@@ -15,10 +15,10 @@ rocketIfNeeded = []
 let package = Package(
     name: "Moya",
     platforms: [
-        .macOS(.v10_12),
-        .iOS(.v10),
-        .tvOS(.v10),
-        .watchOS(.v3)
+        .macOS(.v10_13),
+        .iOS(.v12),
+        .tvOS(.v12),
+        .watchOS(.v4)
     ],
     products: [
         .library(name: "Moya", targets: ["Moya"]),
